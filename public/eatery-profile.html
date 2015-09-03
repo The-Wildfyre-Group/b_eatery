@@ -1,0 +1,1023 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Foundry Multi-purpose HTML Template</title>
+        <meta name="viewport" content="width=device-width, initial-scale=0.9">
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/themify-icons.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/flexslider.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/ytplayer.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
+        <link href='http://fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600' rel='stylesheet' type='text/css'>
+
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css" media="all" />
+
+        <style>
+            .icon-left i {margin-right: 5px;}
+            .font-numbers {font-family: 'Lato';}
+            .text-highlight {color: #cc6600}
+            i + span, i + small { margin-left: 3px;}
+            .col-count-6 {
+              -webkit-column-count: 4; /* Chrome, Safari, Opera */
+              -moz-column-count: 4; /* Firefox */
+              column-count: 4;
+            }
+
+            .col-count-6-margin {
+              -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+              -moz-column-gap: 40px; /* Firefox */
+              column-gap: 40px;
+            }
+
+            ul.options i {
+                margin-right: 5px;
+            }
+
+            .bg-light-grey {background: #f5f5f5;}
+            .box-shadow-ccc {box-shadow: 1px 1px 1px #ccc; border-left: 1px solid #ddd; border-top: 1px solid #ddd;}
+
+            .feature.feature-1.bg-white .caption p,
+            .feature.feature-1.bg-white .caption h5, 
+            .feature.feature-1.bg-white .caption i,
+            .feature.feature-1.bg-white .caption p small  {
+                color: #222;
+            }
+
+            .feature.feature-1.bordered.bg-white {border-radius: 4px 4px 2px 2px;}
+
+            .thumb-img {padding: 10px;}
+            .no-padding {padding: 0 !important;}
+            .caption {padding: 0 20px 8px 20px;}
+            small {margin: 0; }
+            .no-margin {margin: 0;}
+
+        </style>
+
+        <script>(function() { var s = document.createElement("script");s.async = true;s.onload = s.onreadystatechange = function(){getYelpWidget("boo-boo-records-inc-san-luis-obispo","300","RED","n","n","1");};s.src='http://chrisawren.com/widgets/yelp/yelpv2.js' ;var x = document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s, x);})();</script>
+
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+        </script>
+    </head>
+    <body>
+        <div class="nav-container">
+            <a id="top"></a>
+            <nav>
+                <div class="nav-utility">
+                    <div class="module left">
+                        <i class="ti-location-arrow">&nbsp;</i>
+                        <span class="sub">
+                            68 Cardamon Place, Melbourne Vic 3000
+                        </span>
+                    </div>
+                    <div class="module left">
+                        <i class="ti-email">&nbsp;</i>
+                        <span class="sub">hello@foundry.net</span>
+                    </div>
+                    <div class="module right">
+                        <a class="btn btn-sm" href="#">Buy Now</a>
+                    </div>
+                </div>
+                <div class="nav-bar">
+                    <div class="module left">
+                        <a href="index.html">
+                            <img class="logo logo-light" alt="Black Eatery" src="img/be-logo-light.png" />
+                            <img class="logo logo-dark" alt="Black Eatery" src="img/be-logo-dark.png" />
+                        </a>
+                    </div>
+                    <div class="module widget-handle mobile-toggle right visible-sm visible-xs">
+                        <i class="ti-menu"></i>
+                    </div>
+                    <div class="module-group right">
+                        <div class="module left">
+                            <ul class="menu">
+                                <li class="">
+                                    <a href="#">
+                                    summary
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="#">
+                                        photos & map
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="#">
+                                        story
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="#">
+                                        general information
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="#">
+                                        about
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="#">
+                                        Editor's Pick
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="#">
+                                        contact us
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--end of menu module-->
+                        <div class="module widget-handle search-widget-handle left">
+                            <div class="search">
+                                <i class="ti-search"></i>
+                                <span class="title">Search Site</span>
+                            </div>
+                            <div class="function">
+                                <form class="search-form">
+                                    <input type="text" placeholder="Type Here" />
+                                </form>
+                            </div>
+                        </div>
+                        <div class="module widget-handle cart-widget-handle left">
+                            <div class="cart">
+                                <i class="ti-bag"></i>
+                                <span class="label number">2</span>
+                                <span class="title">Shopping Cart</span>
+                            </div>
+                            <div class="function">
+                                <div class="widget">
+                                    <h6 class="title">Shopping Cart</h6>
+                                    <hr>
+                                    <ul class="cart-overview">
+                                        <li>
+                                            <a href="#">
+                                                <img alt="Product" src="img/shop-widget-1.png" />
+                                                <div class="description">
+                                                    <span class="product-title">Canvas Backpack</span>
+                                                    <span class="price number">$39.90</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img alt="Product" src="img/shop-widget-2.png" />
+                                                <div class="description">
+                                                    <span class="product-title">Vintage Camera</span>
+                                                    <span class="price number">$249.50</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <hr>
+                                    <div class="cart-controls">
+                                        <a class="btn btn-sm btn-filled" href="#">Checkout</a>
+                                        <div class="list-inline pull-right">
+                                            <span class="cart-total">Total: </span>
+                                            <span class="number">$289.40</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--end of widget-->
+                            </div>
+                        </div>
+                        <div class="module widget-handle language left">
+                            <ul class="menu">
+                                <li class="has-dropdown">
+                                    <a href="#">ENG</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">French</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Deutsch</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--end of module group-->
+                </div>
+            </nav>
+        </div>
+        <div class="main-container">
+            <section class="image-bg overlay parallax">
+                <div class="background-image-holder">
+                    <img alt="Background" class="background-image" src="http://images.furnituredealer.net/img/products/Kincaid_Furniture/color/Montreat%20-%201155234761_84-054-b3.jpg" />
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 text-center">
+                            <h4 class="uppercase mb16">
+                                <strong>
+                                    top black eataries in baltimore, md
+                                </strong>
+                            </h4>
+                            <p class="lead mb64">
+                                View all listings for Baltimore
+                            </p>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="feature feature-1 bordered bg-white no-padding">
+                                <img alt="Pic" class="thumb-img" src="http://www.idontdoclubs.com/wp-content/uploads/2015/05/black-owned-restaurants-in-dc5.jpg" />
+                                <div class="caption">
+                                    <h5 class="bold font-numbers mb0">Jin Asian Caribbean Soul Lounge</h4>
+                                    <p class="mb0">
+                                      <i class="ti-star"></i><i class="ti-star"></i><i class="ti-star"></i><i class="ti-star"></i><i class="ti-star"></i> 0 reviews
+                                    </p>
+                                    <p class="bold text-muted mb0">
+                                        <small>
+                                            <i class="ion-location mb0"></i> 3740 12th St NE, Washington, DC 20017
+                                        </small>
+                                    </p>
+                                </div>
+                                <div class="caption bg-light-grey">
+                                  <ul class="list-inline mb8 pt16">
+                                      <li>
+                                          <a href="#">
+                                              <span class="label">Ethiopian</span>
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="#">
+                                              <span class="label">Upscale</span>
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="#">
+                                              <span class="label">Full Bar</span>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="feature feature-1 bordered bg-white no-padding">
+                                <img alt="Pic" class="thumb-img" src="http://www.idontdoclubs.com/wp-content/uploads/2015/05/black-owned-restaurants-in-dc20.jpg" />
+                                <div class="caption">
+                                    <h5 class="bold font-numbers mb0">Jin Asian Caribbean Soul Lounge</h4>
+                                    <p class="mb0">
+                                      <i class="ti-star"></i><i class="ti-star"></i><i class="ti-star"></i><i class="ti-star"></i><i class="ti-star"></i> 0 reviews
+                                    </p>
+                                    <p class="bold text-muted mb0">
+                                        <small>
+                                            <i class="ion-location mb0"></i> 2017 14th St NW, Washington, DC 20009
+                                        </small>
+                                    </p>
+                                </div>
+                                <div class="caption bg-light-grey">
+                                  <ul class="list-inline mb8 pt16">
+                                      <li>
+                                          <a href="#">
+                                              <span class="label">Ethiopian</span>
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="#">
+                                              <span class="label">Upscale</span>
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="#">
+                                              <span class="label">Full Bar</span>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </div>
+                            </div>
+                            <!--end of feature-->
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="feature feature-1 bordered bg-white no-padding">
+                                <img alt="Pic" class="thumb-img" src="http://www.idontdoclubs.com/wp-content/uploads/2015/05/black-owned-restaurants-in-dc34.jpg" />
+                                <div class="caption">
+                                    <h5 class="bold font-numbers mb0">Creme Restaurant & Bar</h4>
+                                    <p class="mb0">
+                                      <i class="ti-star"></i><i class="ti-star"></i><i class="ti-star"></i><i class="ti-star"></i><i class="ti-star"></i> 0 reviews
+                                    </p>
+                                    <p class="bold text-muted mb0">
+                                        <small>
+                                            <i class="ion-location mb0"></i> 1110 U St NW, Washington, DC 20009
+                                        </small>
+                                    </p>
+                                </div>
+                                <div class="caption bg-light-grey">
+                                  <ul class="list-inline mb8 pt16">
+                                      <li>
+                                          <a href="#">
+                                              <span class="label">Ethiopian</span>
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="#">
+                                              <span class="label">Upscale</span>
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="#">
+                                              <span class="label">Full Bar</span>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </div>
+                            </div>
+                            <!--end of feature-->
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+            <section class="page-title page-title-4 bg-dark" style="height: 450px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <h3 class="uppercase mb0">Ms. Shirley's Cafe</h3>
+                            <p class="mt0"> 
+                                <i class="ion-star text-warning"></i>
+                                <i class="ion-star text-warning"></i>
+                                <i class="ion-star text-warning"></i>
+                                <i class="ion-star text-warning"></i>
+                                <i class="ion-star text-warning"></i>
+                                <i class="ion-star text-warning"></i>
+                                <small class="font-numbers"> 298 Reviews</small>
+                            </p>
+
+                            <p class="">
+                                Miss Shirley's Cafe offers our guests an exceptional award winning culinary experience for breakfast, brunch and lunch. Our specialties are rooted in Southern fundamentals and the abundance of fresh ingredients from the Chesapeake Bay... 
+                                <a href="#"> Read More <i class="ion-arrow-right-c"></i></a>
+                            </p>
+
+                            <div class="widget mb0">
+                                <ul class="tags">
+                                    <li>
+                                        <a class="btn btn-filled btn-sm" href="#">soulfood</a>
+                                    </li>
+                                    <li>
+                                        <a class="btn  btn-filled btn-sm" href="#">baltimore</a>
+                                    </li>
+                                    <li>
+                                        <a class="btn  btn-filled btn-sm" href="#">maryland</a>
+                                    </li>
+                                    <li>
+                                        <a class="btn  btn-filled btn-sm" href="#">upscale</a>
+                                    </li>
+                                    <li>
+                                        <a class="btn btn-filled btn-sm" href="#">day cafe</a>
+                                    </li>
+                                    <li>
+                                        <a class="btn btn-filled btn-sm" href="#">fullbar</a>
+                                    </li>
+                                    <li>
+                                        <a class="btn btn-filled btn-sm" href="#">Melons</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <br/>
+
+                            <div class="widget mb0 col-count-6">
+                                <ul class="options">
+                                    <li>
+                                        <i class="ion-checkmark-circled"></i> Delivery
+                                    </li>
+                                    <li>
+                                        <i class="ion-checkmark-circled"></i> Online Ordering
+                                    </li>
+                                    <li>
+                                        <i class="ion-checkmark-circled"></i> Gift Certificates
+                                    </li>
+                                    <li>
+                                        <i class="ion-checkmark-circled"></i> Accepts Reservations
+                                    </li>
+                                    <li>
+                                        <i class="ion-checkmark-circled"></i> Catering
+                                    </li>
+                                    <li>
+                                        <i class="ion-checkmark-circled"></i> Private Events
+                                    </li>
+                                </ul>
+                            </div>                        
+                        </div>
+                        <div class="col-md-5 text-right">
+                            <div class="well" style="background: #363636; border-color: #292929; ">
+                                <div class="row">
+                                    <div class="col-md-6" style="border-right: 1px solid #222;">
+                                        <div class="text-center">
+                                            <p class="mb8">
+                                                <i class="ti-clipboard text-muted"></i>
+                                            </p>
+                                            <div class="title mb16">
+                                                <h5 class="uppercase mb0">
+                                                    Miss Shirley McDowell
+                                                </h5>
+                                                <span class="text-muted">Founder</span>
+                                            </div>
+                                            <div class="title mb16">
+                                                <h5 class="uppercase mb0">Jake Robbins</h5>
+                                                <span class="text-muted">Corporate Executive Chief</span>
+                                            </div>
+                                            <div class="title mb16">
+                                                <h5 class="uppercase mb0">Jake Robbins</h5>
+                                                <span class="text-muted">Brand Director</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h5 class="uppercase no-margin mt8">
+                                            <i class="ion-ios-telephone-outline h3 text-muted"></i>
+                                            <br/>
+                                            <span class="font-numbers">410.889.5272</span>
+                                        </h5>   
+                                        <div class="clearfix">
+                                            <div class="pull-">
+                                                <i class="ion-ios-location-outline h3"></i>
+                                            </div>
+                                            <div class="pull-right">
+                                                <p style="line-height: 20px;">
+                                                    513 W. Cold Spring Lane<br/>
+                                                    Baltimore, MD 21210
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <p class="text-muted mb0">
+                                            <a href="#">
+                                                <span class="icon-right text-primary">
+                                                    <i class="ion-android-laptop text-muted h3"></i>
+                                                    <br/>
+                                                    https://www.missshirleys.com
+                                                    
+                                                </span>
+                                            </a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+            <section class="bg-dark pt0">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <hr class="mb48 mb-xs-32">
+                        </div>
+                    </div>
+                    <!--end of row-->
+                    <div class="row">
+                        <div class="col-sm-4 mb-xs-24">
+                            <h5 class="uppercase">
+                                <span class="icon-left">
+                                    <i class="ti-star"></i> Customer Reviews</h5>
+                                </span>
+                            </h5>
+                            
+                            <div class="row">
+                                <img src="https://cdn0.iconfinder.com/data/icons/circle-icons/128/yelp.png" class="col-md-3" />
+                                <img src="https://cdn4.iconfinder.com/data/icons/miu-shadow-social/48/trip_advisor-128.png" class="col-md-3" />
+                                <img src="http://theluxuryeditor.com/wp-content/uploads/2015/03/zomato_favicon3.png" class="col-md-3" />
+                            </div>
+                            <div class="row pt24">
+                                
+                                <img src="http://techpinions.com/wp-content/uploads/2011/09/zagat.png" class="col-md-3" />
+                            </div>
+                            
+                            
+                        </div>
+                        <div class="col-sm-4 mb-xs-24">
+                            <h5 class="uppercase">
+                                <span class="icon-left">
+                                    <i class="ti-gift"></i> Gift Cerftificates</h5>
+                                </span>
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <img src="http://www.missshirleys.com/images/logo-main-new@2x.png" class="img-responsive img-thumbnail" style="padding: 30px 40px;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 mb-xs-24">
+                            <h5 class="uppercase">
+                                <span class="icon-left">
+                                    <i class="ti-time"></i> Hours & Menus</h5>
+                                </span>
+                            </h5>
+                            <table class="table">
+                                <thead>
+                                    <th>Time</th>
+                                    <th>Hours</th>
+                                    <th>Menu</th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Breakfast/Brunch</td>
+                                        <td>7am - 11am</td>
+                                        <td>
+                                            <i class="h3 ion-document-text"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Lunch</td>
+                                        <td>11am - 3:30pm</td>
+                                        <td>
+                                            <i class="h3 ion-document-text"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dinner</td>
+                                        <td>3:30pm - 11pm</td>
+                                        <td>
+                                            <i class="h3 ion-document-text"></i>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+            <section class="image-square right">
+                <div class="col-md-6 p0 image">
+                    <div class="map-holder background-image-holder">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3085.52200900414!2d-76.6314873!3d39.3444139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c80530ebfa4629%3A0xd6292ec98601b76e!2s513+W+Cold+Spring+Ln%2C+Baltimore%2C+MD+21210!5e0!3m2!1sen!2sus!4v1440974845805"></iframe>
+                    </div>
+                </div>
+                <div class="col-md-6 content">
+                    <ul class="filters floating cast-shadow mb0">
+                    </ul>
+                    <div class="row masonry-loader fixed-center">
+                        <div class="col-sm-12 text-center">
+                            <div class="spinner"></div>
+                        </div>
+                    </div>
+                    <div class="row masonry masonryFlyIn lightbox-grid" data-gallery-title="Gallery">
+                        <div class="col-md-4 col-sm-6 masonry-item project" data-filter="People">
+                            <div class="image-tile inner-title hover-reveal text-center">
+                                <a href="http://www.missshirleys.com/uploads/image/photos/inner-harbor-interior-89A94B06-E771-7E55-D6467D1F3BC537A1.jpg" data-lightbox="true">
+                                    <div class="background-image-holder">
+                                        <img alt="image" class="background-image" src="http://www.missshirleys.com/uploads/image/photos/inner-harbor-interior-89A94B06-E771-7E55-D6467D1F3BC537A1.jpg" />
+                                    </div>
+                                    <img alt="Pic" src="http://www.missshirleys.com/uploads/image/photos/inner-harbor-interior-89A94B06-E771-7E55-D6467D1F3BC537A1.jpg" />
+                                    <div class="title">
+                                        <h5 class="uppercase mb0">Happy Couple</h5>
+                                        <span>People / Life</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 masonry-item project" data-filter="Animals">
+                            <div class="image-tile inner-title hover-reveal text-center">
+                                <a href="https://s-media-cache-ak0.pinimg.com/736x/54/5c/80/545c804e9e31ff363b5714aee301b7f8.jpg" data-lightbox="true">
+                                    <div class="background-image-holder">
+                                        <img alt="image" class="background-image" src="https://s-media-cache-ak0.pinimg.com/736x/54/5c/80/545c804e9e31ff363b5714aee301b7f8.jpg" />
+                                    </div>
+                                    <img alt="Pic" src="https://s-media-cache-ak0.pinimg.com/736x/54/5c/80/545c804e9e31ff363b5714aee301b7f8.jpg" />
+                                    <div class="title">
+                                        <h5 class="uppercase mb0">Lonely Dog</h5>
+                                        <span>Animals / Art</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 masonry-item project" data-filter="People">
+                            <div class="image-tile inner-title hover-reveal text-center">
+                                <a href="http://baltimorecollegetown.org/sebin/b/t/Miss%20Shirleys.jpg" data-lightbox="true">
+                                    <div class="background-image-holder">
+                                        <img alt="image" class="background-image" src="http://baltimorecollegetown.org/sebin/b/t/Miss%20Shirleys.jpg" />
+                                    </div>
+                                    <img alt="Pic" src="http://baltimorecollegetown.org/sebin/b/t/Miss%20Shirleys.jpg" />
+                                    <div class="title">
+                                        <h5 class="uppercase mb0">Pondering Blonde</h5>
+                                        <span>People / Life</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 masonry-item project" data-filter="Objects">
+                            <div class="image-tile inner-title hover-reveal text-center">
+                                 <a href="http://www.ettractions.com/storage/engage/Media/prf_12536/Images/miss-shirleys5.jpg" data-lightbox="true">
+                                    <div class="background-image-holder">
+                                        <img alt="image" class="background-image" src="http://www.ettractions.com/storage/engage/Media/prf_12536/Images/miss-shirleys5.jpg" />
+                                    </div>
+                                    <img alt="Pic" src="http://www.ettractions.com/storage/engage/Media/prf_12536/Images/miss-shirleys5.jpg" />
+                                    <div class="title">
+                                        <h5 class="uppercase mb0">Vintage Typewriter</h5>
+                                        <span>Objects / Isolated</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 masonry-item project" data-filter="Objects">
+                            <div class="image-tile inner-title hover-reveal text-center">
+                                 <a href="http://www.missshirleys.com/uploads/image/ms2location.jpg" data-lightbox="true">
+                                    <div class="background-image-holder">
+                                        <img alt="image" class="background-image" src="http://www.missshirleys.com/uploads/image/ms2location.jpg" />
+                                    </div>
+                                    <img alt="Pic" src="http://www.missshirleys.com/uploads/image/ms2location.jpg" />
+                                    <div class="title">
+                                        <h5 class="uppercase mb0">Summer Lovin'</h5>
+                                        <span>Objects / Food</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 masonry-item project" data-filter="People">
+                            <div class="image-tile inner-title hover-reveal text-center">
+                                 <a href="https://www.missshirleys.com/uploads/image/photos/Triple-Play_23683-15C52558-CC51-03C1-A58518B45A0CC0D9.jpg" data-lightbox="true">
+                                    <div class="background-image-holder">
+                                        <img alt="image" class="background-image" src="https://www.missshirleys.com/uploads/image/photos/Triple-Play_23683-15C52558-CC51-03C1-A58518B45A0CC0D9.jpg" />
+                                    </div>
+                                    <a href="#">
+                                    <img alt="Pic" src="https://www.missshirleys.com/uploads/image/photos/Triple-Play_23683-15C52558-CC51-03C1-A58518B45A0CC0D9.jpg" />
+                                    <div class="title">
+                                        <h5 class="uppercase mb0">Thick Fog</h5>
+                                        <span>People / Life</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                </div>
+                <!--end of row-->
+                   <!--  <div class="lightbox-grid square-thumbs pt24" data-gallery-title="Gallery">
+                        <ul>
+                            <li>
+                                <a href="https://s-media-cache-ak0.pinimg.com/736x/54/5c/80/545c804e9e31ff363b5714aee301b7f8.jpg" data-lightbox="true">
+                                    <div class="background-image-holder">
+                                        <img alt="image" class="background-image" src="https://s-media-cache-ak0.pinimg.com/736x/54/5c/80/545c804e9e31ff363b5714aee301b7f8.jpg" />
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://s-media-cache-ak0.pinimg.com/736x/54/5c/80/545c804e9e31ff363b5714aee301b7f8.jpg" data-lightbox="true">
+                                    <div class="background-image-holder">
+                                        <img alt="image" class="background-image" src="https://s-media-cache-ak0.pinimg.com/736x/54/5c/80/545c804e9e31ff363b5714aee301b7f8.jpg" />
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.missshirleys.com/uploads/image/photos/roland-park-location-89A6335D-03F5-4058-B857F793D5E77C09.jpg" data-lightbox="true">
+                                    <div class="background-image-holder">
+                                        <img alt="image" class="background-image" src="http://www.missshirleys.com/uploads/image/photos/roland-park-location-89A6335D-03F5-4058-B857F793D5E77C09.jpg" />
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://baltimorecollegetown.org/sebin/b/t/Miss%20Shirleys.jpg" data-lightbox="true">
+                                    <div class="background-image-holder">
+                                        <img alt="image" class="background-image" src="http://baltimorecollegetown.org/sebin/b/t/Miss%20Shirleys.jpg" />
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="img/cover5.jpg" data-lightbox="true">
+                                    <div class="background-image-holder">
+                                        <img alt="image" class="background-image" src="img/cover5.jpg" />
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="img/cover6.jpg" data-lightbox="true">
+                                    <div class="background-image-holder">
+                                        <img alt="image" class="background-image" src="img/cover6.jpg" />
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="img/cover7.jpg" data-lightbox="true">
+                                    <div class="background-image-holder">
+                                        <img alt="image" class="background-image" src="img/cover7.jpg" />
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="img/cover8.jpg" data-lightbox="true">
+                                    <div class="background-image-holder">
+                                        <img alt="image" class="background-image" src="img/cover8.jpg" />
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div> -->
+                    <!--end of image slider-->
+                        <!-- <h3 class="mb0">Our History</h3>
+                        -->
+                        <!-- 
+                        <h6 class="uppercase text-center">Leave a Review</h6>
+                        <input type="text" class="validate-required" name="name" placeholder="Your Name" />
+                        <input type="text" class="validate-required validate-email" name="email" placeholder="Email Address" />
+                        <textarea class="validate-required" name="message" rows="4" placeholder="Message"></textarea>
+                        <input type="submit" value="Send Message" /> -->
+                    </form>
+                </div>
+            </section>
+            <section class="bg-light-grey">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-sm-offset-1">
+                            <div class="feature bordered bg-white">
+                                <h6 class="uppercase text-highlight">Miss Shirley's cafe</h6>
+                                <h1 class="large uppercase mb24 mb-xs-24">Our Story</h1>
+                                <p>
+                                    Established in 2005 by restaurateur and Baltimore native Eddie Dopkin, Miss Shirley’s Café was created as a tribute to an inspirational employee and personal friend, Miss Shirley McDowell. McDowell, a food professional at The Classic Catering People, was known for her sassy charm and sheer joy of preparing dishes for those she loved. Corporate Executive Chef Brigitte Bledsoe has crafted a bold menu that reflects both McDowell’s southern flare with Bledsoe’s love of fresh Maryland ingredients. 
+                                </p>
+                                <p>
+                                    Beginning as a small 42 seat café in Roland Park, Miss Shirley’s Café has become a passion for the Dopkin family, including son and partner David Dopkin, who has helped nurture and grow Miss Shirley’s Café throughout it’s relocation to 513 W. Cold Spring Lane, expansion, and into it’s two other locations in downtown Baltimore and Annapolis.
+                                </p>
+                                <p>
+                                    As a family-friendly, upscale-casual restaurant, Miss Shirley’s Café’s décor evokes an energetic and welcoming atmosphere. Noted for beautiful presentation, exceptional service, and award-winning dishes, Miss Shirley’s Café has grown into a Baltimore landmark sought out by both locals and visitors alike. Miss Shirley’s Café has gained national press attention from the likes of The New York Times, The Boston Globe, and Food Network Magazine, but has maintained its local resonance with consistent praise from Zagat, What’s Up? Annapolis Magazine, and Baltimore Magazine. 
+                                </p> 
+                                <a class="btn btn-lg btn-filled inner-link" href="#book-table">Book A Table</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-5">
+                            <img class="mt80 mt-xs-0 mb24" alt="Pic" src="http://cache2.asset-cache.net/gc/518495003-waiter-presenting-bill-on-digital-tablet-to-gettyimages.jpg?v=1&c=IWSAsset&k=2&d=kukpgHp3pBs8bzj6K9LHoRKUC%2bBXJS1uYuhZFw%2fPqU0%3d" />
+                            <img class="col-md-pull-4 relative" alt="Pic" src="http://cache3.asset-cache.net/gc/495199645-chefs-finishing-dishes-at-kitchen-before-gettyimages.jpg?v=1&c=IWSAsset&k=2&d=D%2bA135U6AW7cup1O7IM6r5EayC2%2bUlJ3hSpCN%2fpDxyg%3d" />
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+            <section class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="">
+                                <div class="col-sm-12">
+                                    <h6 class="uppercase text-muted">social media</h6>
+                                    <h4 class="mb16 text-muted text-primary">
+                                        <i class="h2 ion-social-instagram"></i> @missshirleys
+                                    </h4>
+                                </div>
+                                <!--end of row-->
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="instafeed grid-gallery" data-user-name="missshirleys">
+                                            <ul></ul>
+                                        </div>
+                                    </div>
+                                   <!--  <div class="col-sm-6">
+                                        <div class="fb-page" data-href="https://www.facebook.com/missshirleys" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/missshirleys"><a href="https://www.facebook.com/missshirleys">Miss Shirley&#039;s Cafe</a></blockquote></div></div>
+                                    </div> -->
+                                </div>
+                                <!--end of row-->
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <h6 class="uppercase text-muted">press and awards</h6>
+                                <p>
+                                    <a href="http://www.examiner.com/article/tale-of-two-waffles-miss-shirley-s-sweet-tea-lemon-mint-ice-cream-waffle-wich">
+                                        Tale of two waffles: Miss Shirley's Sweet Tea Lemon Mint ice cream waffle 'wich
+                                    </a>
+                                </p>
+                                <p>
+                                    <a href="https://www.youtube.com/watch?v=7h6Kogw9Z2o&feature=youtu.be">
+                                        Executive Chef Zuri Coles talks about Summer Specials on FOX45!
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                        </div>
+                        <div class="col-md-4">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="bg-dark">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 text-center">
+                            <h4 class="uppercase mb80">
+                                <i class="ti-help-alt"></i>
+                                general information
+                            </h4>
+                            <div class="tabbed-content text-tabs">
+                                <ul class="tabs">
+                                    <li class="active">
+                                        <div class="tab-title">
+                                            <span>Private Events</span>
+                                        </div>
+                                        <div class="tab-content text-left">
+                                            <p class="lead">
+                                                Group Events Monday - Friday, Excluding Holidays Step into our office… If you’re looking to add a little flavor to your meeting or function, look no further than Miss Shirley’s Café. With private and secluded dining areas at all of our locations –Roland Park, Inner Harbor, and Annapolis—we provide you with inventive fare, exceptional service, and an atmosphere for a productive, and memorable event. Why choose Miss Shirley’s Café to hold your next business meeting or event?
+                                            </p>
+
+                                            <ul>
+                                                <li>Seating for Groups from 11-150</li>
+                                                <li>Multimedia Capabilities (inquire about each location)</li>
+                                                <li>Customizable Menu</li>
+                                                <li>No Room Fees
+                                                <li>Private Dining
+                                                <li>Work Within Your Budget
+                                                <li>Award-Winning Breakfast, Brunch and Lunch!
+                                            </ul>
+
+                                            <p>
+                                                Whether you are looking to show employee appreciation, celebrate a birthday or anniversary, congratulate a birth or retirement, praise your sports team season, hold a community meeting, or land that big business deal, reserve your weekday meeting with Miss Shirley’s Café today!
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="tab-title">
+                                            <span>Catering</span>
+                                        </div>
+                                        <div class="tab-content">
+                                            <p>
+                                                Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="tab-title">
+                                            <span>Delivery</span>
+                                        </div>
+                                        <div class="tab-content">
+                                            <p>
+                                                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est.
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="tab-title">
+                                            <span>Online Order / Take-Out</span>
+                                        </div>
+                                        <div class="tab-content">
+                                            <p>
+                                                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est.
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="tab-title">
+                                            <span>Gift Certificates</span>
+                                        </div>
+                                        <div class="tab-content">
+                                            <p>
+                                                Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--end of text tabs-->
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+
+            <section class="image-bg overlay parallax">
+                <div class="background-image-holder">
+                    <img alt="Background" class="background-image" src="http://41.media.tumblr.com/6ffb6883dc0ba9a8d460cdb7e69a7f22/tumblr_inline_npyi3lURcY1rgc6ou_1280.jpg" />
+                </div>
+                <div class="container">
+                        <div class="row">
+                                <div class="col-md-10 col-md-offset-1 col-sm-12 text-center">
+                                    <h1 class="mb8">Stay updated.</h1>
+                                    <p class="lead mb48">
+                                        We're working around the clock to make this site the number one resource online.
+                                    </p>
+                                    <form class="thirds form-newsletter" data-success="Thanks for your registration, we will be in touch shortly." data-error="Please fill all fields correctly.">
+                                        <input type="text" name="name" class="validate-required signup-name-field" placeholder="Your Name" />
+                                        <input type="text" name="email" class="validate-required validate-email signup-email-field" placeholder="Email Address" />
+                                        <input type="submit" value="Keep Me Informed" />
+                                        <p class="sub text-center">
+                                            By signing up, you agree to our
+                                            <a href="#">Terms Of Service</a>
+                                        </p>
+                                        <iframe srcdoc="<!-- Begin MailChimp Signup Form --><link href=&quot;https://cdn-images.mailchimp.com/embedcode/classic-081711.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;><style type=&quot;text/css&quot;> #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }   /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.     We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */</style><div id=&quot;mc_embed_signup&quot;><form action=&quot;//mrare.us8.list-manage.com/subscribe/post?u=77142ece814d3cff52058a51f&amp;id=94d040322a&quot; method=&quot;post&quot; id=&quot;mc-embedded-subscribe-form&quot; name=&quot;mc-embedded-subscribe-form&quot; class=&quot;validate&quot; target=&quot;_blank&quot; novalidate>    <div id=&quot;mc_embed_signup_scroll&quot;>   <h2>Subscribe to our mailing list</h2><div class=&quot;indicates-required&quot;><span class=&quot;asterisk&quot;>*</span> indicates required</div><div class=&quot;mc-field-group&quot;>    <label for=&quot;mce-EMAIL&quot;>Email Address  <span class=&quot;asterisk&quot;>*</span></label>   <input type=&quot;email&quot; value=&quot;&quot; name=&quot;EMAIL&quot; class=&quot;required email&quot; id=&quot;mce-EMAIL&quot;></div><div class=&quot;mc-field-group&quot;>  <label for=&quot;mce-FNAME&quot;>First Name </label>    <input type=&quot;text&quot; value=&quot;&quot; name=&quot;FNAME&quot; class=&quot;&quot; id=&quot;mce-FNAME&quot;></div><div class=&quot;mc-field-group&quot;> <label for=&quot;mce-LNAME&quot;>Last Name </label> <input type=&quot;text&quot; value=&quot;&quot; name=&quot;LNAME&quot; class=&quot;&quot; id=&quot;mce-LNAME&quot;></div>   <div id=&quot;mce-responses&quot; class=&quot;clear&quot;>      <div class=&quot;response&quot; id=&quot;mce-error-response&quot; style=&quot;display:none&quot;></div>     <div class=&quot;response&quot; id=&quot;mce-success-response&quot; style=&quot;display:none&quot;></div>   </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->    <div style=&quot;position: absolute; left: -5000px;&quot;><input type=&quot;text&quot; name=&quot;b_77142ece814d3cff52058a51f_94d040322a&quot; tabindex=&quot;-1&quot; value=&quot;&quot;></div>    <div class=&quot;clear&quot;><input type=&quot;submit&quot; value=&quot;Subscribe&quot; name=&quot;subscribe&quot; id=&quot;mc-embedded-subscribe&quot; class=&quot;button&quot;></div>    </div></form></div><script type='text/javascript' src='https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script><!--End mc_embed_signup-->" class="mail-list-form">
+                                        </iframe>
+                                    </form>
+                                </div>
+                            </div>
+                        
+                </div>
+                <!--end of container-->
+            </section>
+
+            <footer class="footer-1 bg-dark">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <img class="logo" alt="Black Eatery" src="img/be-logo-light.png" />
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="widget">
+                                <h6 class="title">Recent Posts</h6>
+                                <hr>
+                                <ul class="link-list recent-posts">
+                                    <li>
+                                        <a href="#">Hugging pugs is super trendy</a>
+                                        <span class="date">February
+                                            <span class="number">14, 2015</span>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <a href="#">Spinning vinyl is oh so cool</a>
+                                        <span class="date">February
+                                            <span class="number">9, 2015</span>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <a href="#">Superior theme design by pros</a>
+                                        <span class="date">January
+                                            <span class="number">27, 2015</span>
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--end of widget-->
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="widget">
+                                <h6 class="title">Latest Updates</h6>
+                                <hr>
+                                <div class="twitter-feed">
+                                    <div class="tweets-feed" data-widget-id="492085717044981760">
+                                    </div>
+                                </div>
+                            </div>
+                            <!--end of widget-->
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="widget">
+                                <h6 class="title">Instagram</h6>
+                                <hr>
+                                <div class="instafeed" data-user-name="missshirleys">
+                                    <ul></ul>
+                                </div>
+                            </div>
+                            <!--end of widget-->
+                        </div>
+                    </div>
+                    <!--end of row-->
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <span class="sub">&copy; Copyright 2015 - blackeatery.com</span>
+                        </div>
+                        <div class="col-sm-6 text-right">
+                            <ul class="list-inline social-list">
+                                <li>
+                                    <a href="#">
+                                        <i class="ti-twitter-alt"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="ti-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="ti-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="ti-vimeo-alt"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--end of container-->
+                <a class="btn btn-sm fade-half back-to-top inner-link" href="#top">Top</a>
+            </footer>
+        </div>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/flexslider.min.js"></script>
+        <script src="js/lightbox.min.js"></script>
+        <script src="js/masonry.min.js"></script>
+        <script src="js/twitterfetcher.min.js"></script>
+        <script src="js/spectragram.min.js"></script>
+        <script src="js/ytplayer.min.js"></script>
+        <script src="js/countdown.min.js"></script>
+        <script src="js/smooth-scroll.min.js"></script>
+        <script src="js/parallax.js"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

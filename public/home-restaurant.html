@@ -1,0 +1,893 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Foundry Multi-purpose HTML Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=0.9">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/themify-icons.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/flexslider.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/ytplayer.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/theme-gunmetal.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600' rel='stylesheet' type='text/css'>
+
+
+    <link href='https://fonts.googleapis.com/css?family=Six+Caps' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Fanwood+Text' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Belleza' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Chau+Philomene+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica' rel='stylesheet' type='text/css'>
+
+    <style>
+      .caption {background: white;}
+      .no-margin {margin: 0;}
+      .name {font-weight: bold; margin-bottom: 0;}
+      .address{
+        color: rgba(255, 255, 255, .25);
+        font-size: 12px;
+      }
+
+      .col-count-6 {
+          -webkit-column-count: 5; /* Chrome, Safari, Opera */
+          -moz-column-count: 5; /* Firefox */
+          column-count: 5;
+      }
+
+      .col-count-6-margin {
+          -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+          -moz-column-gap: 40px; /* Firefox */
+          column-gap: 40px;
+      }
+
+      ul.inline-li li 
+      {
+        display: inline-block; margin: 0 15px; letter-spacing: 1px; color: rgba(255, 255, 255, .75);
+      }
+
+      .logo-font {font-family: 'IM Fell DW Pica';}
+
+      .caption {padding: 0 20px 20px}
+    </style> 
+  </head>
+  
+  <body>
+        <div class="nav-container">
+            <a id="top"></a>
+            <nav class="absolute transparent">
+                <div class="nav-bar">
+                    <div class="module left">
+                        <a href="index.html">
+                            <img class="logo logo-light" alt="Foundry" src="img/be-logo-light.png" />
+                            <img class="logo logo-dark" alt="Foundry" src="img/be-logo-dark.png" />
+                        </a>
+                    </div>
+                    <div class="module widget-handle mobile-toggle right visible-sm visible-xs">
+                        <i class="ti-menu"></i>
+                    </div>
+                    <div class="module-group right">
+                        <div class="module left">
+                            <ul class="menu">
+                                <li class="">
+                                    <a href="#">
+                                        our directory
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="#">
+                                        city guides
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="#">
+                                        chefs & food experts
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="#">
+                                        spotlight
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="#">
+                                        Events
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="#">
+                                        Editor's Pick
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="#">
+                                        contact us
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--end of menu module-->
+                        <div class="module widget-handle search-widget-handle left">
+                            <div class="search">
+                                <i class="ti-search"></i>
+                                <span class="title">Search Site</span>
+                            </div>
+                            <div class="function">
+                                <form class="search-form">
+                                    <input type="text" placeholder="Type Here" />
+                                </form>
+                            </div>
+                        </div>
+                        <div class="module widget-handle cart-widget-handle left">
+                            <div class="cart">
+                                <i class="ti-bag"></i>
+                                <span class="label number">2</span>
+                                <span class="title">Shopping Cart</span>
+                            </div>
+                            <div class="function">
+                                <div class="widget">
+                                    <h6 class="title">Shopping Cart</h6>
+                                    <hr>
+                                    <ul class="cart-overview">
+                                        <li>
+                                            <a href="#">
+                                                <img alt="Product" src="img/shop-widget-1.png" />
+                                                <div class="description">
+                                                    <span class="product-title">Canvas Backpack</span>
+                                                    <span class="price number">$39.90</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img alt="Product" src="img/shop-widget-2.png" />
+                                                <div class="description">
+                                                    <span class="product-title">Vintage Camera</span>
+                                                    <span class="price number">$249.50</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <hr>
+                                    <div class="cart-controls">
+                                        <a class="btn btn-sm btn-filled" href="#">Checkout</a>
+                                        <div class="list-inline pull-right">
+                                            <span class="cart-total">Total: </span>
+                                            <span class="number">$289.40</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--end of widget-->
+                            </div>
+                        </div>
+                        <div class="module widget-handle language left">
+                            <ul class="menu">
+                                <li class="has-dropdown">
+                                    <a href="#">ENG</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">French</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Deutsch</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--end of module group-->
+                </div>
+            </nav>
+        </div>
+        <div class="main-container">
+            <section class="fullscreen image-bg overlay parallax">
+                <div class="background-image-holder">
+                    <img alt="image" class="background-image" src="http://41.media.tumblr.com/6ffb6883dc0ba9a8d460cdb7e69a7f22/tumblr_inline_npyi3lURcY1rgc6ou_1280.jpg" />
+                </div>
+                <div class="container v-align-transform">
+                    <div class="row">
+                        <div class="col-sm-12 text-center">
+                            <div style="background: rgba(0,0,0, .5); border-radius: 50%; display: inline-block; margin-bottom: 40px;">
+                              <img alt="Logo" class="image-large" src="img/logo_2.png" style="opacity: .5; height: 140px; margin-bottom: 5px;" />
+                              <br/>
+                              <h1 class="logo-font">blackeatery</h1>
+                            </div>
+                            <h4 class="uppercase bold">The largest directory of black-owned eateries</h4>
+                            <ul class="inline-li h5 bold uppercase">
+                              <li>find & dine</li>
+                              <li>city guides</li>
+                              <li>learn & Discover</li>
+                              <li>network & connect</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+                <div class="align-bottom text-center">
+                    <a class="btn btn-white mb32" href="#">Reserve A Table</a>
+                    <ul class="list-inline social-list mb24">
+                        <li>
+                            <a href="#">
+                                <i class="ti-twitter-alt"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="ti-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="ti-dribbble"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="ti-vimeo-alt"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-sm-offset-1">
+                            <div class="feature bordered">
+                                <h1 class="large uppercase mb64 mb-xs-24">the mission</h1>
+                                <h3 class="logo-font">blackeatery.com</h3>
+                                <p class="mb80 mb-xs-24">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                </p>
+                                <a class="btn btn-lg btn-filled inner-link" href="#book-table">Book A Table</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-5">
+                            <img class="mt80 mt-xs-0 mb24" alt="Pic" src="http://cache2.asset-cache.net/gc/518495003-waiter-presenting-bill-on-digital-tablet-to-gettyimages.jpg?v=1&c=IWSAsset&k=2&d=kukpgHp3pBs8bzj6K9LHoRKUC%2bBXJS1uYuhZFw%2fPqU0%3d" />
+                            <img class="col-md-pull-4 relative" alt="Pic" src="http://cache3.asset-cache.net/gc/495199645-chefs-finishing-dishes-at-kitchen-before-gettyimages.jpg?v=1&c=IWSAsset&k=2&d=D%2bA135U6AW7cup1O7IM6r5EayC2%2bUlJ3hSpCN%2fpDxyg%3d" />
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+            <section class="pt240 pb240 image-bg parallax">
+                <div class="background-image-holder">
+                    <img alt="image" class="background-image" src="http://41.media.tumblr.com/fa9d330a839d64c0793306bf8bfce9d6/tumblr_inline_npyi5eF8lU1rgc6ou_1280.jpg" />
+                </div>
+            </section>
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="instafeed grid-gallery mt80 mt-xs-0 col-md-push-2 relative" data-user-name="ashrod">
+                                <ul></ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="feature bordered text-center">
+                                <h1 class="large uppercase mb32 mb-xs-24">Feast Your Eyes</h1>
+                                <h1 class="text-primary">@blackeatery</h1>
+                                <hr class="mb32">
+                                <p class="mb-xs-24">
+                                    Follow us
+                                    <a href="#">@eatfoundry</a> for delicious updates.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+
+            <section class="image-bg overlay parallax">
+                <div class="background-image-holder">
+                    <img alt="image" class="background-image" src="http://media1.fdncms.com/eastbayexpress/imager/jones-believes-that-people-of-color-feel-c/u/zoom/4085576/taste2-3.jpg" />
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="text-slider slider-paging-controls controls-outside relative">
+                            <ul class="slides">
+                                <li>
+                                    <div class="col-md-8 col-md-offset-2">
+                                        <div class="feature bordered text-center">
+                                            <h3>"Instead of treading the mock meat path, he's making each dish a celebration of vegetables in their prime, rather than trying to retro-engineer steak and lasagne"</h3>
+                                            <h6 class="uppercase">Luke King - Food Magazine</h6>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="col-md-8 col-md-offset-2">
+                                        <div class="feature bordered text-center">
+                                            <h3>"One of the most exciting eateries to open in St Kilda. in years - These guys have years of experience and it shows, from the decor to the presentation - perfect!"</h3>
+                                            <h6 class="uppercase">Jake Higgins - The Age</h6>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+             <section class="bg-secondary">
+                <div class="container">
+                    <div class="row mb64 mb-xs-24">
+                        <div class="col-md-10 col-md-offset-1 col-sm-12 text-center">
+                            <h3>Latest Posts</h3>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div  style="box-shadow: 1px 1px 1px #ccc; border-left: 1px solid #ddd; border-top: 1px solid #ddd;">
+                              <a href="#">
+                                  <img alt="Pic" class="" src="http://www.idontdoclubs.com/wp-content/uploads/2015/05/black-owned-restaurants-in-dc5.jpg" />
+                              </a>
+                              <div class="caption">
+                                <br/>
+                                <a href="#">
+                                <h4 class="bold no-margin">Brookland Cafe</h4>
+                                  <p>
+                                    <i class="ti-star"></i><i class="ti-star"></i><i class="ti-star"></i><i class="ti-star"></i><i class="ti-star"></i> 0 reviews
+                                  </p>
+                                  <p class="bold text-muted mb0">3740 12th St NE, Washington, DC 20017</p>
+                                  <p class="no-margin"><a href="#">www.thebrooklandcafe.com</a></p>
+                                </a>
+                              </div>
+                              <hr class="no-margin"/>
+                              <br/>
+                              <div class="caption">
+                                <ul class="list-inline mb16">
+                                    <li>
+                                        <a href="#">
+                                            <span class="label">Late Night</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span class="label">Social</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span class="label">Full Bar</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                          <div  style="box-shadow: 1px 1px 1px #ccc; border-left: 1px solid #ddd; border-top: 1px solid #ddd;">
+                            <a href="#">
+                                <img alt="Pic" class="" src="http://www.idontdoclubs.com/wp-content/uploads/2015/05/black-owned-restaurants-in-dc34.jpg" />
+                            </a>
+                            <div class="caption">
+                              <br/>
+                              <a href="#">
+                                <h4 class="bold mb0">Creme Restaurant & Bar</h4>
+                                <p>
+                                  <i class="ti-star"></i><i class="ti-star"></i><i class="ti-star"></i><i class="ti-star"></i><i class="ti-star"></i> 0 reviews
+                                </p>
+                                <p class="bold text-muted mb0">1110 U St NW, Washington, DC 20009</p>
+                                <p class="no-margin"><a href="#">www.dukemrestaurant.com</a></p>
+                              </a>
+                            </div>
+                            <hr class="no-margin"/>
+                            <br/>
+                            <div class="caption">
+                              <ul class="list-inline mb16">
+                                  <li>
+                                      <a href="#">
+                                          <span class="label">Ethiopian</span>
+                                      </a>
+                                  </li>
+                                  <li>
+                                      <a href="#">
+                                          <span class="label">Upscale</span>
+                                      </a>
+                                  </li>
+                                  <li>
+                                      <a href="#">
+                                          <span class="label">Full Bar</span>
+                                      </a>
+                                  </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-sm-4">
+                          <div  style="box-shadow: 1px 1px 1px #ccc; border-left: 1px solid #ddd; border-top: 1px solid #ddd;">
+                            <a href="#">
+                                <img alt="Pic" class="" src="http://www.idontdoclubs.com/wp-content/uploads/2015/05/black-owned-restaurants-in-dc20.jpg" />
+                            </a>
+                            <div class="caption">
+                              <br/>
+                              <a href="#">
+                                <h4 class="bold mb0">Jin Asian Caribbean Soul Lounge</h4>
+                                <p>
+                                  <i class="ti-star"></i><i class="ti-star"></i><i class="ti-star"></i><i class="ti-star"></i><i class="ti-star"></i> 0 reviews
+                                </p>
+                                <p class="bold text-muted mb0">2017 14th St NW, Washington, DC 20009</p>
+                                <p class="no-margin"><a href="#">www.jindc.com</a></p>
+                              </a>
+                            </div>
+                            <hr class="no-margin"/>
+                            <br/>
+                            <div class="caption">
+                              <ul class="list-inline mb16">
+                                  <li>
+                                      <a href="#">
+                                          <span class="label">Ethiopian</span>
+                                      </a>
+                                  </li>
+                                  <li>
+                                      <a href="#">
+                                          <span class="label">Upscale</span>
+                                      </a>
+                                  </li>
+                                  <li>
+                                      <a href="#">
+                                          <span class="label">Full Bar</span>
+                                      </a>
+                                  </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+
+            
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-md-push-6 pt80 pt-xs-0">
+                            <div class="feature bordered text-center bg-secondary">
+                                <h3 class="uppercase mb40 mb-xs-24">ENTRÉE</h3>
+                                <div class="mb40">
+                                    <h6 class="mb8 uppercase">Editor's Pick recommendations</h6>
+                                    <p>
+                                        Lightly seasoned with buttered sage and fig hearts.
+                                    </p>
+                                </div>
+                                <div class="mb40">
+                                    <h6 class="mb8 uppercase">an inside look</h6>
+                                    <p>
+                                        Served with a tangy horseradish cream on a bed of slaw.
+                                    </p>
+                                </div>
+                                <div class="mb40">
+                                    <h6 class="mb8 uppercase">catering and private events</h6>
+                                    <p>
+                                        A selection of freshly foraged greens from Northern Australia.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="feature bordered text-center">
+                                <h3 class="uppercase mb40 mb-xs-24">Dessert</h3>
+                                <div class="mb40">
+                                    <h6 class="mb8 uppercase">community empowerment</h6>
+                                    <p>
+                                        Lightly seasoned berries with buttered sage and fig hearts.
+                                    </p>
+                                </div>
+                                <div class="mb40">
+                                    <h6 class="mb8 uppercase">smarter entreprenuership</h6>
+                                    <p>
+                                        Served with a fluffy butterscotch cream on a bed of apple slaw.
+                                    </p>
+                                </div>
+                                <div class="mb40">
+                                    <h6 class="mb8 uppercase">connectivity and commerce</h6>
+                                    <p>
+                                        A selection of freshly foraged fruit from Northern Australia.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-md-pull-6">
+                            <div class="feature bordered hidden-xs hidden-sm">
+                                <h1 class="large uppercase mb-xs-24">menu</h1>
+                                <div class="mb40">
+                                  <h5 class="uppercase text-primary">Majority Black-owned</h5>
+                                  <h6 class="mb8 uppercase">Restaurants and eateries</h6>
+                                  <h6 class="mb8 uppercase">Trucks, stands and mobile vending</h6>
+                                  <h6 class="mb8 uppercase">Private Event Catering</h6>
+                                  <h6 class="mb8 uppercase">Chefs and Culinary Experts </h6>
+                                  <h6 class="mb8 uppercase"> seminars, classes, and education</h6>
+                                  <h6 class="mb8 uppercase">professional networking and events</h6>
+                                  <h6 class="mb8 uppercase">speciality products and packaged goods</h6>
+                                  <h6 class="mb8 uppercase">tasting events</h6>
+                                </div>
+                                <p>
+                                    <strong>Please note we offer vegetarian options and can cater
+                                        <br /> for most dietary requirements.</strong>
+                                </p>
+                            </div>
+                            <div class="feature bordered text-center bg-primary">
+                                <h3 class="uppercase mb40 mb-xs-24">Main</h3>
+                                <div class="mb40">
+                                    <h6 class="mb8 uppercase">international directory</h6>
+                                    <p>
+                                        Lightly seasoned with buttered sage and fig hearts.
+                                    </p>
+                                </div>
+                                <div class="mb40">
+                                    <h6 class="mb8 uppercase">black chef spotlight</h6>
+                                    <p>
+                                        Served with a tangy horseradish cream on a bed of slaw.
+                                    </p>
+                                </div>
+                                <div class="mb40">
+                                    <h6 class="mb8 uppercase">deals and promotions platform</h6>
+                                    <p>
+                                        A selection of freshly foraged greens from Northern Australia.
+                                    </p>
+                                </div>
+                                <div class="mb40">
+                                    <h6 class="mb8 uppercase">black restaurant week</h6>
+                                    <p>
+                                        Lightly fried in Sesami Oil, filled with fresh chicken or beef.
+                                    </p>
+                                </div>
+                                <div class="mb40">
+                                    <h6 class="mb8 uppercase">a connected online presence</h6>
+                                    <p>
+                                        Slow roasted Pork Belly served with apple slaw.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+
+            <section class="pt240 pb240 image-bg parallax">
+                <div class="background-image-holder">
+                    <img alt="image" class="background-image" src="http://media1.fdncms.com/eastbayexpress/imager/jones-believes-that-people-of-color-feel-c/u/zoom/4085576/taste2-3.jpg" />
+                </div>
+            </section>
+            <section class="image-bg parallax overlay">
+                <div class="background-image-holder">
+                    <img alt="Background Image" class="background-image" src="img/home2.jpg">
+                </div>
+                <div class="container">
+                    <div class="row mb64 mb-xs-24">
+                        <div class="col-sm-6 col-md-6 text-left text-center-xs">
+                            <h1 class="large mb8">Our Family</h1>
+                            <h6 class="uppercase">Over 3000 eateries nationwide</h6>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                    <div class="row">
+                      <div class="row">
+                        <div class="col-sm-12">
+
+                          <div class="col-count-6">
+                          
+                          <h4 class="bold">San Diego</h5>
+                          <h4 class="bold">Houston</h5>
+                          <h4 class="bold">Dallas/Fort Worth</h5>
+                          <h4 class="bold">San Antonio</h5>
+                          <h4 class="bold">Atlanta</h5>
+                          <h4 class="bold">New York</h5>
+                          <h4 class="bold">Philadelphia</h5>
+                          <h4 class="bold">Pittsburgh</h5>
+                          <h4 class="bold">Boston</h5>
+                          <h4 class="bold">Detroit</h5>
+                          <h4 class="bold">Chicago</h5>
+                          <h4 class="bold">Cleveland</h5>
+                          <h4 class="bold">Denver</h5>
+
+                          <h4 class="bold">Orange County</h5>
+                          <h4 class="bold">Los Angeles</h5>
+                          <h4 class="bold">Santa Barbara</h5>
+                          <h4 class="bold">San Francisco</h5>
+                          <h4 class="bold">Oakland</h5>
+                          <h4 class="bold">Sacramento</h5>
+                          <h4 class="bold">Berkeley</h5>
+                          </div>
+                          
+                          <!-- <ul>
+                              <li>
+                                <h5 class="name">Souls Restaurant</h5>
+                                <p class="address">6403 Foothill Blvd</p>
+                              </li>
+                              <li>Lenas Soul Food, 1462 High St.</li>
+                              <li>Nellie’s Soul Food, 1155 Third St.</li>
+                              <li>Southern Cafe, 2000 Macarthur Blvd.</li>
+                              <li>Lois the Pie Queen, 851 60th St.</li>
+                              <li>Home of Chicken and Waffles, 444 Embarcadero W</li>
+                              <li>Pican, 2295 Broadway</li>
+                              <li>Souley Vegan, 301 Broadway</li>
+                              <li>Gennys Barbq, 6637 Bancroft Ave.</li>
+                              <li>Elve’s Barbq and Soul Food, 3214 Martin Luther King Jr Way</li>
+                              <li>Miss Ollie’s, 901 Washington St.</li>
+                              <li>Everett & Jones, 126 Broadway</li>
+                              <li>Cajun Hot Soul Food, 3112 Market St.</li>
+                              <li>Aqua Fresh Seafoods, 10823 Macarthur Blvd.</li>
+                              <li>Sizzling Friday, 6018 MacArthur Blvd.</li>
+                              <li>New Karibbean City, 1408 Webster St.</li>
+                              <li>Get the Fork Outta Here, 7641 MacArthur Blvd.</li>
+                              <li>Dorseys Locker, 5817 Shattuck Ave.</li>
+                              <li>Pietisserie, 444 Oak St.</li>
+                              <li>Uncle Willies Original Barbq and Fish, 614 14th St.</li>
+                              <li>BSideBarBQ, 3303 San Pablo Ave.</li>
+                              <li>Brown Sugar Kitchen, 2534 Mandela Pkwy.</li>
+                              <li>Shasheme Bar and Grill, 2507 Broadway</li>
+                              <li>Addis, 6100 Telegraph Ave.</li>
+                              <li>Ensarro Ethiopian, 336 Grand Ave.</li>
+                              <li>Miliki Nigerian Restaurant, 2534 Mandela Pkwy.</li>
+                              <li>Suya African Caribbean, 408 22nd St.</li>
+                              <li>Geoffreys Inner Circle, 410 14th St.</li>
+                              <li>ENAT Winery, 910 81st Ave.</li>
+                              <li>Red Sea Restaurant, 5200 Claremont Ave.</li>
+                              <li>Blend Wings, 420 14th St.</li>
+                          </ul> -->
+                          <!-- <h5 class="mb-xs-24 bold">Oakland</h5>
+                          <ul>
+                            <li>Gussie’s Chicken and Waffles, 1521 Eddy St.</li>
+                            <li>Fillmore Street Cafe, 1301 Fillmore St.</li>
+                            <li>1300 on Fillmore, 1300 Fillmore St.</li>
+                            <li>Miyako Ice Cream, 1470 Fillmore St.</li>
+                            <li>Cafe Golo, 1602 Lombard St.</li>
+                            <li>Auntie Aprils, 4618 Third St.</li>
+                            <li>Bissap Baobab, 3372 19th St.</li>
+                            <li>Bumzy’s Chocolate Chip Cookies, 1460 Fillmore St</li>
+                            <li>Sheba Piano Lounge, 1419 Fillmore St.</li>
+                            <li>Farmer Brown, 25 Mason St.</li>
+                            <li>Little Skillet Cafe, 330 Ritch Street</li>
+                            <li>Queens Louisiana Po’ Boy, 3030 San Bruno St.</li>
+                            <li>Radio Africa, 4800 Third St.</li>
+                            <li>Sam Jordan’s Bar, 4004 Third St.</li>
+                            <li>Savanna Jazz Club, 2937 Mission St.</li>
+                            <li>Let’s Eat BBQ, 5130 Third St.</li>
+                            <li>Yvonne’s Southern Sweets, 4705 Third St.</li>
+                            <li>Frisco Fried, 5176 Third St.</li>
+                            <li>Sweet Inspiration 2239 Market St.</li>
+                            <li>Pepples Donuts, Ferry Building</li>
+                            <li>Amawale’s South African Kitchen, 101 Spear St,</li>
+                            <li>Crown Burgers, 4000 Third St. San Francisco 94124</li>
+                            <li>Two Jacks Niks Place 401 Haight St.</li>
+                            <li>Two Jacks, 984 Gilman St.</li>
+                            <li>Cafe Waziema, 543 Divisadero St.</li>
+                          </ul> -->
+                        </div>
+                      </div>
+                      <a class="btn btn-lg btn-filled" href="chooser.html">Check Out The Demos</a>
+
+                    <!--end of row-->
+
+                    <hr/>
+                    </div>
+
+                          
+
+                    <!--end of row-->
+                    <div class="row">
+                        <div class="col-sm-12 text-center">
+                            <h3 class="mb40 mb-xs-24">Join our commmnity</h3>
+                            <a class="btn btn-lg btn-filled" href="chooser.html">Click Here</a>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+            
+           
+            <section class="image-bg overlay parallax">
+                <div class="background-image-holder">
+                    <img alt="image" class="background-image" src="http://media1.fdncms.com/eastbayexpress/imager/jones-believes-that-people-of-color-feel-c/u/zoom/4085576/taste2-3.jpg" />
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="text-slider slider-paging-controls controls-outside relative">
+                            <ul class="slides">
+                                <li>
+                                    <div class="col-md-8 col-md-offset-2">
+                                        <div class="feature bordered text-center">
+                                            <h3>"Instead of treading the mock meat path, he's making each dish a celebration of vegetables in their prime, rather than trying to retro-engineer steak and lasagne"</h3>
+                                            <h6 class="uppercase">Luke King - Food Magazine</h6>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="col-md-8 col-md-offset-2">
+                                        <div class="feature bordered text-center">
+                                            <h3>"One of the most exciting eateries to open in St Kilda. in years - These guys have years of experience and it shows, from the decor to the presentation - perfect!"</h3>
+                                            <h6 class="uppercase">Jake Higgins - The Age</h6>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+            <a id="book-table"></a>
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="feature bordered">
+                                <h1 class="large uppercase mb64 mb-xs-24">Book A Table</h1>
+                                <form class="form-email" data-success="Thanks for your booking, we will be in touch to confirm shortly." data-error="Please fill all fields correctly.">
+                                    <input type="text" class="validate-required" name="name" placeholder="Name for booking" />
+                                    <input type="text" class="validate-required" name="phone" placeholder="Phone Number" />
+                                    <div class="select-option col-md-6 p0">
+                                        <i class="ti-angle-down"></i>
+                                        <select class="validate-required" name="persons">
+                                            <option selected value="">Number of Guests</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                            <option value="4">Four</option>
+                                            <option value="5">Five</option>
+                                            <option value="6">Six</option>
+                                            <option value="7">Seven</option>
+                                            <option value="8">Eight</option>
+                                            <option value="9">Nine</option>
+                                            <option value="10">Ten</option>
+                                        </select>
+                                    </div>
+                                    <!--end select-->
+                                    <div class="select-option col-md-6 p0">
+                                        <i class="ti-angle-down"></i>
+                                        <select class="validate-required" name="time">
+                                            <option selected value="">Time</option>
+                                            <option value="6pm">6:00pm</option>
+                                            <option value="630pm">6:30pm</option>
+                                            <option value="7pm">7:00pm</option>
+                                            <option value="730pm">7:30pm</option>
+                                            <option value="8pm">8:00pm</option>
+                                            <option value="830pm">8:30pm</option>
+                                            <option value="9pm">9:00pm</option>
+                                        </select>
+                                    </div>
+                                    <!--end select-->
+                                    <input type="text" class="validate-required" name="date" placeholder="Date (DD/MM/YYYY)" />
+                                    <input type="submit" value="Reserve Table" />
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="map-holder pt160 pb160 mt80 mt-xs-0 mb24">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3149.4086040735224!2d144.976411!3d-37.87412599999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad66889faebddf1%3A0xcc68084b44a30620!2sRiva+St+Kilda!5e0!3m2!1sen!2sau!4v1427779902899"></iframe>
+                            </div>
+                            <div class="feature bordered">
+                                <h4 class="uppercase">Contact Us</h4>
+                                <p>
+                                    428 Marine Parade
+                                    <br /> Elwood VIC 3184
+                                </p>
+                                <p>
+                                    <strong>P:</strong> +614837483
+                                    <br />
+                                    <strong>E:</strong> eat@foundry.net
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+            <footer class="footer-1 bg-dark">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <img alt="Logo" class="logo" src="img/logo-light.png" />
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="widget">
+                                <h6 class="title">Recent Posts</h6>
+                                <hr>
+                                <ul class="link-list recent-posts">
+                                    <li>
+                                        <a href="#">Hugging pugs is super trendy</a>
+                                        <span class="date">February
+                                            <span class="number">14, 2015</span>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <a href="#">Spinning vinyl is oh so cool</a>
+                                        <span class="date">February
+                                            <span class="number">9, 2015</span>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <a href="#">Superior theme design by pros</a>
+                                        <span class="date">January
+                                            <span class="number">27, 2015</span>
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--end of widget-->
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="widget">
+                                <h6 class="title">Latest Updates</h6>
+                                <hr>
+                                <div class="twitter-feed">
+                                    <div class="tweets-feed" data-widget-id="492085717044981760">
+                                    </div>
+                                </div>
+                            </div>
+                            <!--end of widget-->
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="widget">
+                                <h6 class="title">Instagram</h6>
+                                <hr>
+                                <div class="instafeed" data-user-name="funsizeco">
+                                    <ul></ul>
+                                </div>
+                            </div>
+                            <!--end of widget-->
+                        </div>
+                    </div>
+                    <!--end of row-->
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <span class="sub">&copy; Copyright 2015 - Medium Rare</span>
+                        </div>
+                        <div class="col-sm-6 text-right">
+                            <ul class="list-inline social-list">
+                                <li>
+                                    <a href="#">
+                                        <i class="ti-twitter-alt"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="ti-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="ti-dribbble"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="ti-vimeo-alt"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--end of container-->
+                <a class="btn btn-sm fade-half back-to-top inner-link" href="#top">Top</a>
+            </footer>
+        </div>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/flexslider.min.js"></script>
+        <script src="js/lightbox.min.js"></script>
+        <script src="js/masonry.min.js"></script>
+        <script src="js/twitterfetcher.min.js"></script>
+        <script src="js/spectragram.min.js"></script>
+        <script src="js/ytplayer.min.js"></script>
+        <script src="js/countdown.min.js"></script>
+        <script src="js/smooth-scroll.min.js"></script>
+        <script src="js/parallax.js"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
